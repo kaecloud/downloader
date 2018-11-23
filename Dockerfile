@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-ADD http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/attach/50452/cn_zh/1516453988016/ossutil32 /usr/bin/ossutil
+ADD http://gosspublic.alicdn.com/ossutil/1.4.2/ossutil32 /usr/bin/ossutil
 RUN chmod a+x /usr/bin/ossutil
 
 COPY entrypoint.sh /
